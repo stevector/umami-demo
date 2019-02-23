@@ -45,7 +45,7 @@ describe('Hello world ', function(){
         logIn(cy, Cypress);
 
         var i = 0;
-        while (i < 10) {
+        while (i < 1) {
             cy.visit('node/add/article');
             setTitle(cy, sample_words);
             uploadImage(cy, Cypress, sample_words);

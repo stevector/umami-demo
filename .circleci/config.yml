@@ -130,6 +130,9 @@ jobs:
                 name: remove transient test fixtures
                 command: ./.circleci/scripts/pantheon/09-cleanup-fixtures
 
+orbs:
+  cypress: cypress-io/cypress@1
+
 workflows:
   version: 2
   build_and_test:
@@ -138,3 +141,5 @@ workflows:
       - build
       # Build deploy and test on target platform
       - build_deploy_and_test
+      - cypress/run:
+          store_artifacts: true

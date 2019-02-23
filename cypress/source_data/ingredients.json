@@ -1,0 +1,39 @@
+{
+    "records": [
+      {
+        "id": "recGeGuqjWkQ6vSj3",
+        "fields": {
+          "Name": "Peanut butter"
+        },
+        "createdTime": "2019-02-20T20:06:03.000Z"
+      },
+      {
+        "id": "recAMxP8PB4NbHnwg",
+        "fields": {
+          "Name": "chocolate"
+        },
+        "createdTime": "2019-02-20T20:06:03.000Z"
+      },
+      {
+        "id": "recNT8v8DBM89HQ7l",
+        "fields": {
+          "Name": "salsa"
+        },
+        "createdTime": "2019-02-20T20:06:03.000Z"
+      },
+      {
+        "id": "recK8IySsLP5hlbE4",
+        "fields": {
+          "Name": "dairy"
+        },
+        "createdTime": "2019-02-20T20:09:46.000Z"
+      },
+      {
+        "id": "recQBuXpqBOUU7aXW",
+        "fields": {
+          "Name": "avocados"
+        },
+        "createdTime": "2019-02-20T20:09:52.000Z"
+      }
+    ]
+  }

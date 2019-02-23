@@ -103,4 +103,4 @@ Thumbs.db
 .sass-cache
 
 
-tests/cypress/node_modules/
+/node_modules/

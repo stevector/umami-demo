@@ -101,3 +101,6 @@ Thumbs.db
 # SASS #
 ##########
 .sass-cache
+
+
+tests/cypress/node_modules/

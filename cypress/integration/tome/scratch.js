@@ -5,4 +5,3 @@ while (ii < 10) {
     console.log((sample_words.sentence()));
     ii++;
 }
-

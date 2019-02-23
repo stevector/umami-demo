@@ -144,5 +144,6 @@ workflows:
       - cypress/run:
           store_artifacts: true
           pre-steps:
+           - checkout
            - run: 'ls'
            - run: './cypress/set-globals.sh'

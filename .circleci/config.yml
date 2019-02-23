@@ -144,7 +144,5 @@ workflows:
       - cypress/run:
           store_artifacts: true
           pre-steps:
-           - checkout
-#           - run: './cypress/set-globals.sh'
            - run:
                command: echo 'export CYPRESS_baseUrl="https://pr-${CIRCLE_PULL_REQUEST##*/}-${TERMINUS_SITE}.pantheonsite.io/"' >> $BASH_ENV

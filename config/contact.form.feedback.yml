@@ -1,4 +1,4 @@
-uuid: 263cff23-c478-464d-9ffc-3a31182596e4
+uuid: dd320cd8-cbbd-42ef-ae7a-b7e91b07cb58
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - steve.persch@pantheon.io
+  - admin@example.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

@@ -1,6 +1,6 @@
-uuid: e17988b6-fcdb-4b2a-a632-e877b96317f0
-name: umami-demo
-mail: steve.persch@pantheon.io
+uuid: e66ee830-c899-4b11-8e8d-9c758e193844
+name: Site-Install
+mail: admin@example.com
 slogan: ''
 page:
   403: ''
@@ -11,4 +11,4 @@ weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
-  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

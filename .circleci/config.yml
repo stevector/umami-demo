@@ -147,5 +147,4 @@ workflows:
            - checkout
 #           - run: './cypress/set-globals.sh'
            - run:
-             name: var url
              command: echo 'export CYPRESS_baseUrl="https://pr-${CIRCLE_PULL_REQUEST##*/}-${TERMINUS_SITE}.pantheonsite.io/"' >> $BASH_ENV

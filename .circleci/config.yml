@@ -132,7 +132,6 @@ jobs:
 
 orbs:
   cypress: cypress-io/cypress@1
-
 workflows:
   version: 2
   build_and_test:

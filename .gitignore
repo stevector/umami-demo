@@ -102,7 +102,6 @@ Thumbs.db
 ##########
 .sass-cache
 
-
-/node_modules/
+# Cypress Artifacts #
 cypress/screenshots/
 cypress/videos/

@@ -45,9 +45,10 @@ describe('Hello world ', function(){
         logIn(cy, Cypress);
 
         var i = 0;
-        while (i < 1000) {
-            cy.visit('node/add/article?failover_debug=1');
-            setTitle(cy, sample_words);
+        while (i < 100) {
+//            cy.visit('node/add/article?failover_debug=1');
+          cy.contains('Failover Debug').click();
+          setTitle(cy, sample_words);
             //uploadImage(cy, Cypress, sample_words);
             cy.get('#edit-submit').click();
             cy.wait(500);

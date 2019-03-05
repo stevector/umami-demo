@@ -48,10 +48,31 @@ describe('Hello world ', function(){
         while (i < 100) {
 //            cy.visit('node/add/article?failover_debug=1');
           cy.contains('Failover Debug').click();
-          setTitle(cy, sample_words);
+
+
+          cy.get('body').then(($body) => {
+            // synchronously query from body
+            // to find which element was created
+            if ($body.find('form').length) {
+              // input was found, do something else here
+              setTitle(cy, sample_words);
+              cy.get('#edit-submit').click();
+            }
+
+          })
+
+         // cy.get('form').first()
+           // .then(($myElement) => {
+            //  const title = $myElement.text();
+
+           // })
+
+
+          cy.visit('admin/content/failover-term-usage-count');
+          //setTitle(cy, sample_words);
             //uploadImage(cy, Cypress, sample_words);
-            cy.get('#edit-submit').click();
-            cy.wait(500);
+          //  cy.get('#edit-submit').click();
+            //cy.wait(500);
           i++;
         }
       })

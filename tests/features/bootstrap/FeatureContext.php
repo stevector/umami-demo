@@ -45,6 +45,20 @@ class FeatureContext extends RawDrupalContext implements Context, SnippetAccepti
 //  }
 //
 
+
+
+  /**
+   * @When I make an article
+   */
+  public function iCreateAnArticle()
+  {
+    $this->minkContext->clickLink("Failover Debug");
+    $event_title = 'article title ' . time();
+    $this->minkContext->fillField('title[0][value]', $event_title);
+
+    $this->minkContext->pressButton('Save');
+  }
+
     /**
      * Fills in form field with specified id|name|label|value
      * Example: And I enter the value of the env var "TEST_PASSWORD" for "edit-account-pass-pass1"
